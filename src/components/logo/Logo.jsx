@@ -1,6 +1,6 @@
 
 
-export function Logo({ type = "default" }) {
+export default function Logo({ type = "default" }) {
 
     let path = '/images/logo.svg';
     if (type == 'muted') {
