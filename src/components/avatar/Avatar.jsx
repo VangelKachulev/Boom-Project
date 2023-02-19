@@ -3,8 +3,8 @@ import styles from "../avatar/Avatar.module.scss";
 
 export default function Avatar({
     size = {
-        width: 90,
-        height: 90
+         width: "90",
+        height: "90" 
     },
     url = "/images/avatar.png",
     verified = false
