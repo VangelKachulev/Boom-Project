@@ -15,10 +15,10 @@ export default function User({
 
 
     return (
-        <div className="user">
+        <div className={styles.user}>
             <Avatar></Avatar>
-            <h2 className="name">{name}</h2>
-            <p className="info">{info}</p>
+            <h2 className={styles.name}>{name}</h2>
+            <p className={styles.info}>{info}</p>
         </div>
 
     )
