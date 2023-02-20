@@ -1,10 +1,14 @@
 
 import styles from "../avatar/Avatar.module.scss";
 
-export default function Avatar(props) {
-    const { size = 90, verified = true, url = "/images/avatar.png" } = props;
+export default function Avatar({
+    size = 90,
+    verified = false,
+    url = "/images/avatar.png.svg"
+}) {
 
-    console.log(url);
+
+
     return (
 
         <div>
@@ -18,15 +22,8 @@ export default function Avatar(props) {
 
                 </ div >
                 :
-
-
-                <div className={styles.avatar} style={{ width: `${size}px`, height: `${size}px` }}>
-
-
-
+                <div className={styles.avatar}>
                 </ div >}
-
-
         </div>
 
 

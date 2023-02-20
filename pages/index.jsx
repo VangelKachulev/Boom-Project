@@ -9,6 +9,6 @@ export default function Index() {
 
   return <div>
     <Header></Header>
-    <Avatar ></Avatar>
+   
   </div>
 }
