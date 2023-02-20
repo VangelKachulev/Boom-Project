@@ -2,7 +2,7 @@
 import styles from "../avatar/Avatar.module.scss";
 
 export default function Avatar({
-    size = "90",
+    size = "90px",
     url = "/images/avatar.png",
     verified = false
 }) {
