@@ -5,10 +5,10 @@ import Avatar from "../src/components/avatar/Avatar";
 
 
 export default function Index() {
-
+ 
 
   return <div>
     <Header></Header>
-    <Avatar></Avatar>
-    </div>
+    <Avatar ></Avatar>
+  </div>
 }
