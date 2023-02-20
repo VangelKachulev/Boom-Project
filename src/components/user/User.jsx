@@ -15,8 +15,8 @@ export default function User({
 
 
     return (
-        <div className={styles.user} style={{ width: `${size}px` }}>
-            <Avatar  size={size} verified={verified}></Avatar>
+        <div style={{ width: `${size}px` }} className={styles.user}>
+            <Avatar size={size} verified={verified}></Avatar>
             <h2 className={styles.name}>{name}</h2>
             <p className={styles.info}>{info}</p>
         </div>
