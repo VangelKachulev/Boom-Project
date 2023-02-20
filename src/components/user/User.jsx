@@ -16,9 +16,11 @@ export default function User({
 
     return (
         <div className={styles.user}>
-            <Avatar></Avatar>
-            <h2 className={styles.name}>{name}</h2>
-            <p className={styles.info}>{info}</p>
+            <Avatar src={avatar} alt={name} size={size} verified={verified} />
+            <div className={styles.info}>
+                <h3 className={styles.name}>{name}</h3>
+                <p className={styles.description}>{info}</p>
+            </div>
         </div>
 
     )
