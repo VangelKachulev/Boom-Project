@@ -15,12 +15,10 @@ export default function User({
 
 
     return (
-        <div className={styles.user}>
-            <Avatar src={avatar} alt={name} size={size} verified={verified} />
-            <div className={styles.info}>
-                <h3 className={styles.name}>{name}</h3>
-                <p className={styles.description}>{info}</p>
-            </div>
+        <div className={styles.user} style={{ width: `${size}px` }}>
+            <Avatar  size={size} verified={verified}></Avatar>
+            <h2 className={styles.name}>{name}</h2>
+            <p className={styles.info}>{info}</p>
         </div>
 
     )
